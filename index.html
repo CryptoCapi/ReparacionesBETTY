@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicio de Electrodomésticos BETTY - Atendido por Toño | León, Gto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    <div class="bg-blue-600 p-2 sm:p-3 rounded-full">
+                        <svg class="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="text-lg sm:text-2xl font-bold text-gray-800">Reparaciones Toño</h1>
+                        <p class="text-xs sm:text-sm text-gray-600">Experto en Electrodomésticos</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <a href="tel:+524772452422" class="md:hidden bg-green-500 text-white p-2 rounded-full hover:bg-green-600 transition">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                    </a>
+                    <div class="hidden md:flex items-center space-x-6">
+                        <a href="#servicios" class="text-gray-700 hover:text-blue-600 font-medium transition">Servicios</a>
+                        <a href="#contacto" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">Contactar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-12 sm:py-20">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 floating">¡Tu Electrodoméstico en Buenas Manos!</h2>
+                <p class="text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 opacity-90 px-2">Con más de 25 años de experiencia reparando electrodomésticos. Servicio confiable en León, Guanajuato.</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#contacto" class="bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition transform hover:scale-105">
+                        📞 Solicitar Servicio
+                    </a>
+                    <a href="#servicios" class="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition">
+                        Ver Servicios
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-12 sm:py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-8 sm:mb-16">
+                <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-2 sm:mb-4">Nuestros Servicios</h3>
+                <p class="text-base sm:text-lg lg:text-xl text-gray-600 px-2">Reparamos todo tipo de electrodomésticos con garantía</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+                <!-- Aspiradoras -->
+                <div class="service-card bg-gradient-to-br from-blue-50 to-blue-100 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl border border-blue-200">
+                    <div class="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 text-center">🌪️</div>
+                    <h4 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2 sm:mb-3 text-center">Aspiradoras</h4>
+                    <ul class="text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 mb-4 sm:mb-6">
+                        <li>✓ No aspira bien</li>
+                        <li>✓ Motor dañado</li>
+                        <li>✓ Manguera tapada</li>
+                        <li>✓ Filtros sucios</li>
+                    </ul>
+                    <div class="text-center">
+                        <span class="bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">Estimación en Línea</span>
+                    </div>
+                </div>
+
+                <!-- Batidoras -->
+                <div class="service-card bg-gradient-to-br from-green-50 to-green-100 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl border border-green-200">
+                    <div class="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 text-center">🥄</div>
+                    <h4 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2 sm:mb-3 text-center">Batidoras</h4>
+                    <ul class="text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 mb-4 sm:mb-6">
+                        <li>✓ Motor quemado</li>
+                        <li>✓ Aspas dañadas</li>
+                        <li>✓ No enciende</li>
+                        <li>✓ Velocidades no funcionan</li>
+                    </ul>
+                    <div class="text-center">
+                        <span class="bg-green-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">Servicio en el Lugar</span>
+                    </div>
+                </div>
+
+                <!-- Lavadoras y Secadoras -->
+                <div class="service-card bg-gradient-to-br from-orange-50 to-orange-100 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl border border-orange-200">
+                    <div class="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 text-center">🌊</div>
+                    <h4 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2 sm:mb-3 text-center">Lavadoras y Secadoras</h4>
+                    <ul class="text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 mb-4 sm:mb-6">
+                        <li>✓ No centrifuga</li>
+                        <li>✓ No llena agua</li>
+                        <li>✓ No seca bien</li>
+                        <li>✓ Ruidos extraños</li>
+                    </ul>
+                    <div class="text-center">
+                        <span class="bg-orange-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">Servicio a Domicilio</span>
+                    </div>
+                </div>
+
+                <!-- Cocinas y Hornallas -->
+                <div class="service-card bg-gradient-to-br from-purple-50 to-purple-100 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl border border-purple-200">
+                    <div class="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 text-center">🔥</div>
+                    <h4 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2 sm:mb-3 text-center">Cocinas y Hornallas</h4>
+                    <ul class="text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 mb-4 sm:mb-6">
+                        <li>✓ Quemadores tapados</li>
+                        <li>✓ Horno no calienta</li>
+                        <li>✓ Problemas de gas</li>
+                        <li>✓ Termostato dañado</li>
+                    </ul>
+                    <div class="text-center">
+                        <span class="bg-purple-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">Estimación en Línea</span>
+                    </div>
+                </div>
+
+                <!-- Refrigeradores y Congeladores -->
+                <div class="service-card bg-gradient-to-br from-red-50 to-red-100 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl border border-red-200">
+                    <div class="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 text-center">❄️</div>
+                    <h4 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2 sm:mb-3 text-center">Refrigeradores y Congeladores</h4>
+                    <ul class="text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 mb-4 sm:mb-6">
+                        <li>✓ No enfría</li>
+                        <li>✓ Hace ruido</li>
+                        <li>✓ Fuga de agua</li>
+                        <li>✓ Termostato dañado</li>
+                    </ul>
+                    <div class="text-center">
+                        <span class="bg-red-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">Servicio en el Lugar</span>
+                    </div>
+                </div>
+
+                <!-- Secadoras -->
+                <div class="service-card bg-gradient-to-br from-gray-50 to-gray-100 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl border border-gray-200">
+                    <div class="text-4xl sm:text-5xl lg:text-6xl mb-3 sm:mb-4 text-center">🌀</div>
+                    <h4 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2 sm:mb-3 text-center">Secadoras</h4>
+                    <ul class="text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 mb-4 sm:mb-6">
+                        <li>✓ No seca bien</li>
+                        <li>✓ No calienta</li>
+                        <li>✓ Tambor no gira</li>
+                        <li>✓ Filtros tapados</li>
+                    </ul>
+                    <div class="text-center">
+                        <span class="bg-gray-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">Servicio a Domicilio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Por qué elegirnos -->
+    <section class="py-12 sm:py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-8 sm:mb-16">
+                <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-2 sm:mb-4">¿Por Qué Elegir a Toño?</h3>
+                <p class="text-base sm:text-lg lg:text-xl text-gray-600 px-2">La confianza y experiencia que tu familia necesita</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <div class="text-center p-4">
+                    <div class="bg-blue-600 w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 pulse-slow">
+                        <span class="text-2xl sm:text-3xl text-white">⭐</span>
+                    </div>
+                    <h4 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">25+ Años de Experiencia</h4>
+                    <p class="text-sm sm:text-base text-gray-600">Reparando electrodomésticos con la mejor calidad</p>
+                </div>
+                
+                <div class="text-center p-4">
+                    <div class="bg-green-600 w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 pulse-slow">
+                        <span class="text-2xl sm:text-3xl text-white">🏠</span>
+                    </div>
+                    <h4 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Servicio a Domicilio</h4>
+                    <p class="text-sm sm:text-base text-gray-600">Vamos hasta tu casa en León y alrededores</p>
+                </div>
+                
+                <div class="text-center p-4">
+                    <div class="bg-orange-600 w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 pulse-slow">
+                        <span class="text-2xl sm:text-3xl text-white">💵</span>
+                    </div>
+                    <h4 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Pago en Efectivo</h4>
+                    <p class="text-sm sm:text-base text-gray-600">Cotización gratuita y precios accesibles</p>
+                </div>
+                
+                <div class="text-center p-4">
+                    <div class="bg-purple-600 w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 pulse-slow">
+                        <span class="text-2xl sm:text-3xl text-white">🛡️</span>
+                    </div>
+                    <h4 class="text-lg sm:text-xl font-bold text-gray-800 mb-2">Garantía</h4>
+                    <p class="text-sm sm:text-base text-gray-600">Respaldamos nuestro trabajo con garantía</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-12 sm:py-20 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6">¿Tu Electrodoméstico No Funciona?</h3>
+                <p class="text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 opacity-90 px-2">¡No te preocupes! Llama a Toño y lo solucionamos juntos</p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-12">
+                    <div class="bg-white bg-opacity-10 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl backdrop-blur">
+                        <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">📞</div>
+                        <h4 class="text-lg sm:text-xl lg:text-2xl font-bold mb-2">Llámanos Ahora</h4>
+                        <p class="text-sm sm:text-base lg:text-lg mb-3 sm:mb-4">Atención de Lunes a Sábado</p>
+                        <a href="tel:+524772452422" class="bg-white text-blue-600 px-4 sm:px-6 py-2 sm:py-3 rounded-full font-semibold hover:bg-gray-100 transition inline-block text-sm sm:text-base">
+                            477-245-2422
+                        </a>
+                    </div>
+                    
+                    <div class="bg-white bg-opacity-10 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl backdrop-blur">
+                        <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">💬</div>
+                        <h4 class="text-lg sm:text-xl lg:text-2xl font-bold mb-2">WhatsApp</h4>
+                        <p class="text-sm sm:text-base lg:text-lg mb-3 sm:mb-4">Respuesta rápida y cotización</p>
+                        <a href="https://wa.me/5214772452422" class="bg-green-500 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full font-semibold hover:bg-green-600 transition inline-block text-sm sm:text-base">
+                            Enviar Mensaje
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-white bg-opacity-10 p-4 sm:p-6 lg:p-8 rounded-xl sm:rounded-2xl backdrop-blur">
+                    <div class="text-3xl sm:text-4xl mb-3 sm:mb-4">📍</div>
+                    <h4 class="text-lg sm:text-xl lg:text-2xl font-bold mb-2">Ubicación</h4>
+                    <p class="text-sm sm:text-base lg:text-lg mb-2">C. Corralejo 306, Hidalgo</p>
+                    <p class="text-sm sm:text-base lg:text-lg mb-4">37220 León de los Aldamas, GTO</p>
+                    
+                    <!-- Mapa interactivo -->
+                    <div class="bg-white rounded-lg overflow-hidden mb-4">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.8234567890123!2d-101.6869!3d21.1619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf0000000000%3A0x0!2sC.%20Corralejo%20306%2C%20Hidalgo%2C%2037220%20Le%C3%B3n%20de%20los%20Aldamas%2C%20Gto.%2C%20Mexico!5e0!3m2!1sen!2smx!4v1234567890123!5m2!1sen!2smx"
+                            width="100%" 
+                            height="180" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
+                    <div class="flex flex-col gap-2 sm:gap-3">
+                        <a href="https://maps.google.com/?q=C.+Corralejo+306,+Hidalgo,+37220+León+de+los+Aldamas,+GTO" 
+                           target="_blank"
+                           class="bg-blue-500 text-white px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-semibold hover:bg-blue-600 transition flex items-center justify-center">
+                            🗺️ Ver en Google Maps
+                        </a>
+                        <a href="https://waze.com/ul?q=C.+Corralejo+306,+Hidalgo,+37220+León+de+los+Aldamas,+GTO" 
+                           target="_blank"
+                           class="bg-purple-500 text-white px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-semibold hover:bg-purple-600 transition flex items-center justify-center">
+                            🚗 Abrir en Waze
+                        </a>
+                    </div>
+                    
+                    <p class="text-xs sm:text-sm opacity-75 mt-3">Servicio a domicilio disponible en León y alrededores</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 sm:py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <div class="text-center sm:text-left">
+                    <h5 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Reparaciones Toño</h5>
+                    <p class="text-sm sm:text-base text-gray-400">Tu electrodoméstico en buenas manos. Servicio confiable y profesional en León, Guanajuato.</p>
+                </div>
+                
+                <div class="text-center sm:text-left">
+                    <h5 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Servicios</h5>
+                    <ul class="text-sm sm:text-base text-gray-400 space-y-1 sm:space-y-2">
+                        <li>Aspiradoras y Batidoras</li>
+                        <li>Lavadoras y Secadoras</li>
+                        <li>Cocinas y Hornallas</li>
+                        <li>Refrigeradores y Congeladores</li>
+                    </ul>
+                </div>
+                
+                <div class="text-center sm:text-left sm:col-span-2 lg:col-span-1">
+                    <h5 class="text-lg sm:text-xl font-bold mb-3 sm:mb-4">Contacto</h5>
+                    <ul class="text-sm sm:text-base text-gray-400 space-y-1 sm:space-y-2">
+                        <li>📞 477-245-2422</li>
+                        <li>💬 WhatsApp disponible</li>
+                        <li>📍 León, Guanajuato</li>
+                        <li>🕒 Lun-Sáb: 8:00 AM - 8:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400">
+                <p class="text-xs sm:text-sm">&copy; 2024 Servicio de Electrodomésticos BETTY - Atendido por Toño. Todos los derechos reservados. | León, Guanajuato</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5214772452422" class="whatsapp-float bg-green-500 hover:bg-green-600 text-white p-3 sm:p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110" target="_blank" aria-label="Contactar por WhatsApp">
+        <svg class="w-6 h-6 sm:w-8 sm:h-8" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+    </a>
+    <script src="script.js"></script>
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9756fb31767b55c3',t:'MTc1NjI0OTYwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
